@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Page</title>
+</head>
+<body>
+<div th:text="${var_direct_in_controller_method}"></div> <!-- ok -->
+<div th:text="${var_concrete_class}"></div> <!-- ok -->
+<div th:text="${var_in_base_class}"></div> <!-- good code is red and no completion available for this variable-->
+</body>
+</html>
